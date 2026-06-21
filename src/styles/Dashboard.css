@@ -1,0 +1,44 @@
+body {
+    background:
+        linear-gradient(135deg,
+            #0f172a,
+            #1e293b);
+
+    min-height: 100vh;
+
+    color: white;
+}
+
+.hero-section {
+    padding: 80px 0;
+}
+
+.hero-section h1 {
+    font-size: 4rem;
+    font-weight: 800;
+
+    background:
+        linear-gradient(90deg,
+            #38bdf8,
+            #818cf8);
+
+    -webkit-background-clip:
+        text;
+
+    -webkit-text-fill-color:
+        transparent;
+}
+
+.hero-section p {
+    font-size: 1.2rem;
+    opacity: 0.8;
+}
+
+.form-control {
+    border-radius: 16px;
+    padding: 14px;
+}
+
+.btn-primary {
+    border-radius: 16px;
+}
